@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movies-->
+        <!--New Movie Releases-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MovieViewController" customModule="flixter" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,7 +62,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="Ycv-61-PuO"/>
+                    <navigationItem key="navigationItem" title="New Movie Releases" id="Ycv-61-PuO">
+                        <barButtonItem key="leftBarButtonItem" title="Flixter" id="0da-tQ-Iz3">
+                            <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="d9I-0Q-FxU" id="PGp-HG-ghg"/>
                     </connections>
