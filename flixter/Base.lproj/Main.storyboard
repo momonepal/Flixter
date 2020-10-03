@@ -54,6 +54,7 @@
                                             <outlet property="posterView" destination="gwY-18-uk7" id="E1J-VQ-69L"/>
                                             <outlet property="synopsisLabel" destination="XVb-xR-YYt" id="9t3-9y-u7m"/>
                                             <outlet property="titleLabel" destination="gdH-HL-X1w" id="8x0-py-3B5"/>
+                                            <segue destination="j2W-cx-SgA" kind="show" id="E94-k2-Hhp"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -75,6 +76,22 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="113.83928571428571"/>
         </scene>
+        <!--mom-->
+        <scene sceneID="sa2-xX-kfo">
+            <objects>
+                <viewController id="j2W-cx-SgA" customClass="MovieDetailViewController" customModule="flixter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HOd-HU-YuY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="glu-4P-jsw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="mom" id="IBF-Eq-yIU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVR-q7-cGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1781" y="114"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Jn-W0-BFp">
             <objects>
@@ -94,5 +111,4 @@
             <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.99406605960000005" green="0.98907524270000002" blue="0.071242759880000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
